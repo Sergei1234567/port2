@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="42a23ca6-f022-4e31-ad66-a83de023dbc7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/harbor/OdessaSeaPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/harbor/OdessaSeaPort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,20 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OdessaSeaPort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OdessaSeaPort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/harbor/OdessaSeaPort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="176">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OdessaSeaPortTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OdessaSeaPortTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/harbor/OdessaSeaPortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            <state relative-caret-position="424">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,16 +102,16 @@
         <option value="$PROJECT_DIR$/src/main/java/harbor/AbstractShip.java" />
         <option value="$PROJECT_DIR$/src/main/java/harbor/Cargo.java" />
         <option value="$PROJECT_DIR$/src/main/java/harbor/Tanker.java" />
-        <option value="$PROJECT_DIR$/src/test/java/harbor/OdessaSeaPortTest.java" />
         <option value="$PROJECT_DIR$/src/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/harbor/OdessaSeaPort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/harbor/OdessaSeaPortTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="1033" />
-    <option name="height" value="1039" />
+    <option name="x" value="-10" />
+    <option name="width" value="1034" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -281,7 +280,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -290,7 +288,7 @@
       <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.4967742" weight="0.3281879" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.34870318" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.10541311" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.19800569" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49496403" visible="true" weight="0.2758389" />
       <window_info id="Structure" order="1" sideWeight="0.5007194" side_tool="true" weight="0.17221585" />
@@ -420,13 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/harbor/AbstractShip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/port2.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -437,20 +428,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/harbor/OdessaSeaPortTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/harbor/AbstractShip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/harbor/OdessaSeaPort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="176">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/harbor/OdessaSeaPortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

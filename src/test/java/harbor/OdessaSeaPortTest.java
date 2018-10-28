@@ -16,7 +16,7 @@ public class OdessaSeaPortTest {
         arrayShips[2] = new Liner("TestNameLiner", 100, 100, 100, 300);
 
         assertEquals("{TestNameTatnker=25000};" + "{TestNameCargo=55000};" +
-                "{TestNameLiner=100000};",port.);
+                "{TestNameLiner=100000};",port.sortSumPaymentAsc(arrayShips));
     }
 
 }
