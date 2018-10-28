@@ -7,7 +7,4 @@ public class OdessaSeaPort {
         /*BODY*/
         return null;
     }
-
-    public String toPrint(AbstractShip[] arrayShips) {
-    }
 }
