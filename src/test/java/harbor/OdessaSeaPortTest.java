@@ -11,14 +11,13 @@ public class OdessaSeaPortTest {
         OdessaSeaPort port = new OdessaSeaPort();
         AbstractShip[] arrayShips = new AbstractShip[3];
 
-        arrayShips[0] = new Cargo("TestCargoName", 100, 100, 100, 10);
-        arrayShips[1] = new Tanker("TestNameTatnker", 100, 100, 100, 100);
-        arrayShips[2] = new Liner("TestNameLiner", 100, 100, 100, 300);
+        arrayShips[0] = (new Cargo("TestNameCargo", 100, 100, 100, 100));
+        arrayShips[1] = (new Tanker("TestNameTanker", 100, 100, 100, 100));
+        arrayShips[2] = (new Liner("TestNameLiner", 100, 100, 100, 100));
 
-//        port.sortSumPaymentAsc(arrayShips);
 
-        assertEquals("{TestNameTatnker=25000};" + "{TestNameCargo=55000};" +
-                "{TestNameLiner=100000};", port.sortSumPaymentAsc(arrayShips);
+        assertEquals("TestNameTanker=25000.0" + "TestNameCargo=55000.0" +
+                "TestNameLiner=100000.0", port.sortSumPaymentAsc(arrayShips));
     }
 
 }
