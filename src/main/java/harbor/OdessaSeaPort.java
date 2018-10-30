@@ -1,5 +1,7 @@
 package harbor;
 
+import java.util.Arrays;
+
 public class OdessaSeaPort {
 
     public static String sortSumPaymentAsc(AbstractShip[] arrayShips) {
@@ -22,9 +24,9 @@ public class OdessaSeaPort {
             }
         }
 
-        for (int index = 0; index < arrayShips.length; index++) {
-            if (arrayShips[index] != null) {
-                result += arrayShips[index].getName() + "=" + arrayShips[index].calculatePayment();
+        for (AbstractShip arrayShip : arrayShips) {
+            if (arrayShip != null) {
+                result += arrayShip.getName() + "=" + arrayShip.calculatePayment();
             }
         }
 
