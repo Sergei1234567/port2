@@ -1,6 +1,10 @@
 package harbor;
 
-class Tanker extends AbstractShip {
+class Tanker extends AbstractShip implements Comparable<Tanker> {
+    public float getVolume() {
+        return volume;
+    }
+
     private float volume;
     public static final float DEFAULT_RENTAL = 250;
 
@@ -19,6 +23,17 @@ class Tanker extends AbstractShip {
             return volume * rentTax;
         } else {
             return calculatePayment();
+        }
+    }
+
+    public int compareTo(Tanker o) {
+
+        if (o.getVolume() < 0) {
+            return 1;
+        } else if (o.getVolume() == 0) {
+            return 0;
+        } else {
+            return -1;
         }
     }
 }
