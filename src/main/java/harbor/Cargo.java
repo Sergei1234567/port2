@@ -1,9 +1,6 @@
 package harbor;
 
-class Cargo extends AbstractShip implements Comparable<Cargo> {
-    public float getTonnage() {
-        return tonnage;
-    }
+class Cargo extends AbstractShip {
 
     private float tonnage;
     public static final float DEFAULT_RENTAL = 550;
@@ -16,23 +13,5 @@ class Cargo extends AbstractShip implements Comparable<Cargo> {
     @Override
     public float calculatePayment() {
         return tonnage * DEFAULT_RENTAL;
-    }
-
-    public float calculatePayment(float rentTax) {
-        if (rentTax > 0) {
-            return tonnage * rentTax;
-        } else {
-            return calculatePayment();
-        }
-    }
-
-    public int compareTo(Cargo o) {
-        if (o.getTonnage() < 0) {
-            return 1;
-        } else if (o.getTonnage() == 0) {
-            return 0;
-        } else {
-            return -1;
-        }
     }
 }

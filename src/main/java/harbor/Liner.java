@@ -1,9 +1,6 @@
 package harbor;
 
-public class Liner extends AbstractShip implements Comparable<Liner> {
-    public int getPassengers() {
-        return passengers;
-    }
+public class Liner extends AbstractShip {
 
     private int passengers;
     public static final float DEFAULT_RENTAL = 1000;
@@ -16,24 +13,5 @@ public class Liner extends AbstractShip implements Comparable<Liner> {
     @Override
     public float calculatePayment() {
         return passengers * DEFAULT_RENTAL;
-    }
-
-    public float calculatePayment(float rentTax) {
-        if (rentTax > 0) {
-            return passengers * rentTax;
-        } else {
-            return calculatePayment();
-        }
-    }
-
-    public int compareTo(Liner o) {
-
-        if (o.getPassengers() < 0) {
-            return 1;
-        } else if (o.getPassengers() == 0) {
-            return 0;
-        } else {
-            return -1;
-        }
     }
 }

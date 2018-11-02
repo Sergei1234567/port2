@@ -1,6 +1,7 @@
 package harbor;
 
-abstract class AbstractShip {
+abstract class AbstractShip implements Comparable<AbstractShip> {
+
     private String name;
     private float length;
     private float width;
@@ -24,5 +25,9 @@ abstract class AbstractShip {
 
     public String getName() {
         return name;
+    }
+
+    public int compareTo(AbstractShip o) {
+        return Float.compare(calculatePayment(), o.calculatePayment());
     }
 }
